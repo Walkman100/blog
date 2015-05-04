@@ -35,12 +35,12 @@ layout: default
             	<ul class="article-nav">
                     <li class="prev">
                     {% if page.next.url %}
-                        <a href="{{page.next.url}}" title="Newer post: {{page.next.title | strip_html}}">&larr; {{page.next.title | strip_html}}</a>
+                        <a href="{{ site.production_url }}{{page.next.url}}" title="Newer post: {{page.next.title | strip_html}}">&larr; {{page.next.title | strip_html}}</a>
                     {% endif %}
                     </li>
                     <li class="next">
                     {% if page.previous.url %}
-                        <a href="{{page.previous.url}}" title="Older post: {{page.previous.title | strip_html}}">{{page.previous.title | strip_html}} &rarr;</a>
+                        <a href="{{ site.production_url }}{{page.previous.url}}" title="Older post: {{page.previous.title | strip_html}}">{{page.previous.title | strip_html}} &rarr;</a>
                     {% endif %}
                     </li>
             	</ul>
