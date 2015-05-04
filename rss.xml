@@ -5,13 +5,13 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[{{ site.sitename }}]]></title>
-  <link href="{{ site.url }}/atom.xml" rel="self"/>
-  <link href="{{ site.url }}/"/>
+  <link href="{{ site.url }}/blog/atom.xml" rel="self"/>
+  <link href="{{ site.url }}/blog/"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <id>{{ site.url }}/</id>
   <author>
     <name><![CDATA[{{ site.author | strip_html }}]]></name>
-    {% if site.email %}<email><![CDATA[{{ site.email }}]]></email>{% endif %}
+    {% if site.author.email %}<email><![CDATA[{{ site.author.email }}]]></email>{% endif %}
   </author>
 
   {% for post in site.posts limit: 20 %}

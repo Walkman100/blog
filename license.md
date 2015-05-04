@@ -1,7 +1,7 @@
 ---
 layout: page
 title: DON'T BE A DICK PUBLIC LICENSE
-image: /img/donkey.jpg
+image: img/donkey.jpg
 credit: http://www.flickr.com/photos/australian-war-memorial/3527159428/
 description: You have a lot of freedoms with my code, so don't be a dick!
 ---

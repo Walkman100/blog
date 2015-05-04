@@ -9,7 +9,7 @@ auto: true
 
 # Set the default URL structure for posts. See for details:
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: /:title
+permalink: /blog/:title
 
 # PERSONALISE ME!
 sitename: Walkman100's blog
